@@ -66,7 +66,7 @@
     color: #000;
 }
 
-/* SIDENAV */
+
 #sideNav{
     width: 250px;
     height: 100vh;
@@ -102,7 +102,7 @@ nav ul li a{
     margin-top: 15px;
 }
 
-/* media queries */
+
 @media screen and (max-width:770px){
     .banner-text h1{
         font-size: 44px;
@@ -114,7 +114,7 @@ nav ul li a{
     
 }
 
-/* header section completed */
+
 #feature{
     width: 100%;
     padding: 70px 0;
@@ -209,8 +209,7 @@ nav ul li a{
         width: 100%;
     }
 }
-/* Second section completed */
-/* Service section Started */
+
 #service{
     width: 100%;
     padding: 70px 0;
@@ -290,8 +289,7 @@ hr{
         bottom: 25% !important;
     }
 }
-/* Service section completed */
-/* Testimonial Section Starts Here */
+
 
 #testimonial{
     width: 100%;
@@ -348,6 +346,7 @@ hr{
 /* Footer starts here */
 #footer{
     padding: 100px 0 20px;
+    background: #efefef;
     position: relative;
 
 }
@@ -469,9 +468,14 @@ hr{
     background-color: #666;
     color: white;
   }
+
+  #map{
+    padding: 100px 0 20px;
+    position: relative;
+  }
   
 
-/* preloader */
+
 #preloader{
     background: #000 url("images/loader.gif") no-repeat center center;
     background-size: 15%;
